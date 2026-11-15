@@ -9,8 +9,6 @@
 
 > **AEVORA** is an intelligent, compassionate healthcare and medication adherence ecosystem designed to bridge the gap between older adults, loving families, and professional caregivers. Built with high accessibility standards, proactive safety intelligence, and AI-driven companionship.
 
----
-
 ## 🌟 Key Highlights & Features
 
 ### 1. 👵 Senior-Friendly Accessible Experience
@@ -44,8 +42,6 @@
 - **Exportable Reports**: Generate detailed CSV summaries for doctor visits and clinical reviews.
 - **Admin Governance Console**: Platform oversight, user management, and security audit logs.
 
----
-
 ## 🛠️ Tech Stack & Architecture
 
 - **Frontend**: React 19, TypeScript, Vite, Tailwind CSS v4, Lucide Icons, Framer Motion (`motion`), Recharts
@@ -53,8 +49,6 @@
 - **AI / LLM**: Google Gemini API (`@google/genai`)
 - **Background Tasks & Alerts**: `node-cron` for scheduling dose sweeps, Resend for transactional email delivery
 - **Validation & Security**: Zod, Cookie-Parser (HTTP-only secure auth cookies), Rate-limiting & Care PIN protection
-
----
 
 ## 🚀 Getting Started
 
@@ -107,8 +101,6 @@ The full-stack application will boot up at **`http://localhost:3000`**.
 > npm run seed
 > ```
 
----
-
 ## 👥 Demo Credentials
 
 You can test all distinct role perspectives using the seeded demo accounts:
@@ -119,8 +111,6 @@ You can test all distinct role perspectives using the seeded demo accounts:
 | **Family Member** | `maya@aevora.care` | `CareCircle2026!` | Daughter & Primary Care Contact |
 | **Professional Caregiver** | `david@aevora.care` | `CareCircle2026!` | Shift Caregiver |
 | **Administrator** | `admin@aevora.care` | `AdminCare2026!` | Platform Console Access |
-
----
 
 ## 📂 Project Structure
 
@@ -146,32 +136,9 @@ aevora/
 └── package.json          # Dependencies and scripts
 ```
 
----
-
-## 🌐 Production Deployment
-
-AEVORA is designed for zero-hassle deployment on **Vercel**, **Render**, or **Docker** paired with managed PostgreSQL (e.g., Neon, Supabase, AWS RDS):
-
-1. **Deploy Database**: Provision a PostgreSQL instance and update `DATABASE_URL`.
-2. **Apply Migrations**:
-   ```bash
-   npx prisma generate
-   npx prisma migrate deploy
-   ```
-3. **Set Environment Variables**: Set `GEMINI_API_KEY`, `SESSION_SECRET`, `RESEND_API_KEY`, and `DATABASE_URL` in your hosting dashboard.
-4. **Build & Start**:
-   ```bash
-   npm run build
-   npm start
-   ```
-
----
-
 ## 🛡️ Medical & Safety Disclaimer
 
 AEVORA is a wellness assistance and medication adherence support tool. It is **not** a certified medical device and does not provide clinical diagnosis or prescription alterations. All medication schedules and interactions should always be verified by a licensed healthcare professional or pharmacist.
-
----
 
 ## 📄 License
 
