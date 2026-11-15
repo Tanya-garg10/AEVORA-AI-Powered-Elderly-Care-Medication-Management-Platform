@@ -28,6 +28,7 @@
     "node-cron": "^4.6.0",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
+    "react-is": "^19.0.0",
     "react-router-dom": "^7.18.5",
     "recharts": "^3.10.1",
     "resend": "^6.38.1",
