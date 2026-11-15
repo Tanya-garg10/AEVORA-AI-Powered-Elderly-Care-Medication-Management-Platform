@@ -1,0 +1,6 @@
+{
+  "name": "AEVORA",
+  "description": "Care that connects generations. An AI-powered elderly care and family health management ecosystem.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

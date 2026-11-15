@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --aevora-navy: #142b3b;
+    --aevora-teal: #167c80;
+    --aevora-ivory: #f8f7f2;
+    --aevora-mint: #d9f0e8;
+    --aevora-slate: #74818b;
+    --aevora-white: #ffffff;
+  }
+
+  html {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f8f7f2;
+    color: #142b3b;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Manrope", "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+
+  .font-mono-tabular {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Accessible Mode Enhancements */
+  html.aevora-large-text {
+    font-size: 19px;
+  }
+
+  html.aevora-high-contrast body {
+    background-color: #ffffff;
+    color: #0b1924;
+  }
+
+  html.aevora-high-contrast .aevora-card {
+    border-color: #142b3b !important;
+    border-width: 2px !important;
+    background-color: #ffffff !important;
+  }
+
+  html.aevora-high-contrast .aevora-muted {
+    color: #1e3a4c !important;
+  }
+}
+
+/* Tabular numerals helper */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Focus ring visibility for keyboard & senior accessibility */
+*:focus-visible {
+  outline: 3px solid #167c80;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

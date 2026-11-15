@@ -1,0 +1,1404 @@
+Ab AEVORA ko properly build karte hain. Main tumhe ek **complete product development blueprint + separate copy-paste prompts** de rahi hoon, taaki Google AI Studio ek generic website nahi, balki ek premium, fully functional healthcare product banaye.
+
+Is baar hum development ko separate sections mein rakhenge:
+
+1. Product vision and architecture
+2. Premium UI/UX design system
+3. Landing page
+4. Authentication and onboarding
+5. Elderly dashboard
+6. Family member dashboard
+7. Caretaker dashboard
+8. Medication management
+9. Appointment management
+10. AI Care Companion
+11. Notifications and email automation
+12. Analytics and medical records
+13. Admin and governance console
+14. Backend, database and security
+15. Testing and deployment
+
+# **AEVORA — Complete Product Blueprint**
+
+# **AEVORA**
+
+Healthcare technology
+
+# **Care that connects generations.**
+
+[Bureau voor advies en management - TwynstraGudde - Maatschappelijke transities werkend krijgen](https://images.openai.com/static-rsc-4/G8ysICZtO1IoRC-afY4kOtDSjtgr1YIBdSlCHQ8MQx0J_heLwjO3nVZE9KoZyJF2Hlk6UhMlBvKzcQkXMUQbaFpD6ngRoudZij21dD7IKiFTzz0JG7YI9uXv2OM7aONqO-U4pLqDr0RC7kPiHlA5gG5nRIbgIAEL_mqMniedMt0?purpose=inline)
+
+[twynstragudde.nl](https://www.twynstragudde.nl/?utm_source=chatgpt.com)
+
+Smarter Care. Stronger Connections. Healthier Ageing.
+
+AI-POWERED ELDERLY CARE ECOSYSTEM
+
+## **1. Final technology stack**
+
+Firebase completely excluded.
+
+| Component      | Technology            |
+| -------------- | --------------------- |
+| Frontend       | Next.js + React       |
+| Language       | TypeScript            |
+| Styling        | Tailwind CSS          |
+| Animation      | Framer Motion         |
+| Backend        | Node.js + Next.js API |
+| Database       | PostgreSQL            |
+| ORM            | Prisma                |
+| Authentication | Auth.js               |
+| AI             | Gemini API            |
+| Email          | Resend                |
+| Charts         | Recharts              |
+| Validation     | Zod                   |
+| Deployment     | Vercel                |
+
+## **2. Complete website structure**
+
+The application will have four distinct experiences.
+
+**Public website**
+
+Marketing
+
+Home / Landing
+
+Features
+
+How It Works
+
+About AEVORA
+
+Security & Privacy
+
+Contact / FAQ
+
+**Elderly individual**
+
+Primary user
+
+My Dashboard
+
+My Medicines
+
+My Appointments
+
+My Health Profile
+
+AI Companion
+
+Emergency Card
+
+My Care Circle
+
+My Notifications
+
+**Family member**
+
+Family Overview
+
+Medication Monitoring
+
+Care Timeline
+
+Appointment Tracking
+
+Member Management
+
+Care Tasks
+
+**Caretaker & Administrator**
+
+Caretaker Workspace
+
+Daily Checklist
+
+Shift Handover
+
+Care Notes
+
+Admin Console
+
+Audit & Reports
+
+# **3. UI/UX — sabse important section**
+
+AEVORA ka design ordinary hospital dashboard jaisa bilkul nahi hona chahiye.
+
+Our visual direction:
+
+- Apple-inspired simplicity.
+- Premium healthcare SaaS aesthetic.
+- Soft 3D illustrations.
+- Elegant cards and generous whitespace.
+- Accessible interface for senior citizens.
+- Different dashboard experiences for each role.
+
+## **4. Premium visual design references**
+
+[Modern Healthcare Platform - 3D Hero Section by Buraq Lab on Dribbble](https://images.openai.com/static-rsc-4/nx3OTFh7ERfNHYaT3XyQV8OCbH1uw8QMTyDEoM0eCsI2VaIat76bt8B6fOd8RFR6wVtXtasjqPW9VgixDxHbGAqoc6gwqob3Wkhn1FKUphcgARLOLyl3Swo8RrkvkpHOqBp2TZFPXVkWXcZujMN2ZwEfIL7Ah-gsA0TVDLyurbQ?purpose=inline)
+
+**Landing page**
+
+Editorial layout, 3D hero, beautiful storytelling.
+
+[Kashish Khatri | Software Developer](https://images.openai.com/static-rsc-4/6KL7nZ6c0vVb1EIbXvr8EIDye3ybvjgOWDe8zoiLrix8_Bw9bAg9M-AcdndctTHdQb7Y9M_Z5PPuShjVO_9BT2Q4eMg1vTPxenUPJkaM_JY-qrIocY4-QfvQGbbrmrkatIBdkxoIDKO4BhTIL9Xtr0kgggTju1GMGhYRNtcMdlM?purpose=inline)
+
+**Elderly dashboard**
+
+Large controls, simple navigation, calm colors.
+
+[See Medi-Aide where it matters most | Medi-Aide](https://images.openai.com/static-rsc-4/qkR7UTSWwGox4AdmHJ2Bu1Y3ONLjx6Pjm9VhvKGtdHo1HL7L0mVndphxnKKbkM5SzRcFxu_CJHTpjRWmaQNGOFqQ93VYZSX73tMz7Dx2_I4mB_762tuS6YbSsdDq3AFH26GaFgL_SyiK2-PiiLZyc-IXe_ck1Qrz9is9vLL7kZA?purpose=inline)
+
+**Family dashboard**
+
+Care coordination, activity feed and permissions.
+
+[AI Healthcare Website Design by JA. Parvez for Wingly on Dribbble](https://images.openai.com/static-rsc-4/qYqOAUkY4-_K5qhnVlPncvjbo5_R_1Zf1Fp3MBKwHsTeFE-IOhGA_OzW_7r0Fd1R5h-NY0zFSqRoIEXAJOtjtqeaQqqJx6hdA4TBR57t7G2s7Ts1D6IUuEbyOl38O7Wxb3qeiNhuChsfKkd_gMbALPV9MQS20f2hFh14aS5urRU?purpose=inline)
+
+**AI companion**
+
+Conversational interface and contextual assistance.
+
+### **Design tokens**
+
+| Element    | Design specification      |
+| ---------- | ------------------------- |
+| Primary    | Deep Teal `#167C80`       |
+| Background | Soft Ivory `#F8F7F2`      |
+| Sidebar    | Midnight Navy `#142B3B`   |
+| Secondary  | Mint `#D9F0E8`            |
+| Cards      | White with subtle shadows |
+| Headings   | Manrope                   |
+| Body       | Inter                     |
+| Radius     | 14–22px                   |
+| Animation  | Smooth, subtle 180–350ms  |
+
+## **5. Copy-paste implementation prompts**
+
+Use these prompts sequentially in the same Google AI Studio project. Don't create a fresh project for every prompt.
+
+
+
+Prompt 01
+
+**Project foundation and architecture**
+
+
+
+You are a senior full-stack engineer, product architect and healthcare UX specialist.
+
+Build AEVORA, a complete AI-powered elderly care and medication management ecosystem.
+
+PRODUCT VISION:\
+Create an interconnected platform for elderly individuals, family members and caretakers. Elderly users must remain at the centre of all healthcare decisions.
+
+TECH STACK:
+
+- Next.js App Router
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Node.js
+- PostgreSQL
+- Prisma ORM
+- Auth.js
+- Gemini API
+- Resend
+- Recharts
+- Zod
+
+STRICT REQUIREMENTS:
+
+- No Firebase whatsoever.
+- No Firestore.
+- No Firebase Authentication.
+- No mock backend.
+- No fake API responses presented as real functionality.
+- Use PostgreSQL for persistent application data.
+- Use server-side API routes and secure server actions.
+- Build reusable components.
+- Maintain a clean folder structure.
+- Implement role-based authorization.
+- Use environment variables for all credentials.
+
+CREATE THREE USER ROLES:
+
+1. Elderly Individual.
+2. Family Member.
+3. Caretaker.
+
+Create a separate protected Admin role.
+
+ARCHITECTURE:\
+Separate the application into:
+
+- Public presentation layer.
+- Authentication layer.
+- Role-based dashboard layer.
+- Healthcare management services.
+- AI assistance service.
+- Notification and scheduling service.
+- Database and storage service.
+- Administration and audit service.
+
+Create Prisma database models for users, elderly profiles, care circles, invitations, permissions, medications, schedules, doses, medication logs, appointments, care tasks, care notes, handovers, emergency contacts, medical records, notifications and audit logs.
+
+Create project folders for components, features, services, API routes, database, validation, hooks, utilities and types.
+
+First inspect the project environment and produce a complete implementation plan. Then implement the actual application, not merely a plan.
+
+Ensure the application can run locally and provide setup commands and environment configuration instructions.
+
+
+
+Prompt 02
+
+**Complete UI/UX and design system**
+
+
+
+Now build the complete AEVORA visual design system.
+
+IMPORTANT:\
+This must look like a premium, professionally funded healthcare technology startup.
+
+Do not use generic dashboard templates.
+
+VISUAL IDENTITY:
+
+- Brand: AEVORA
+- Tagline: Care that connects generations.
+- Primary color: Deep Teal #167C80
+- Background: Ivory #F8F7F2
+- Navy: #142B3B
+- Mint: #D9F0E8
+- White surfaces.
+- Manrope headings.
+- Inter body typography.
+
+DESIGN REQUIREMENTS:
+
+1. Build a premium navigation system.
+2. Create a beautiful responsive sidebar for authenticated dashboards.
+3. Add an elegant top navigation bar.
+4. Use meaningful icons.
+5. Use soft shadows and sophisticated card layouts.
+6. Create beautiful data visualization components.
+7. Add subtle Framer Motion animations.
+8. Add animated page transitions.
+9. Design beautiful modal dialogs and drawers.
+10. Design polished dropdowns, tooltips and notifications.
+11. Build custom loading skeletons.
+12. Create attractive empty states and error states.
+13. Add toast notifications.
+14. Ensure responsive mobile navigation.
+15. Support keyboard navigation and accessible focus states.
+
+ELDERLY ACCESSIBILITY:
+
+- Large text option.
+- High contrast option.
+- Large touch targets.
+- Simple language.
+- Clear visual status indicators.
+- Reduced motion option.
+- Voice-friendly controls.
+
+Do not overcrowd the interface.
+
+Use a consistent 8px spacing system.
+
+Every page must have its own intentional visual hierarchy.
+
+Do not use random gradients on every card. Use them selectively.
+
+Create a reusable design system and component library before building the individual pages.
+
+
+
+Prompt 03
+
+**Landing page — premium startup experience**
+
+
+
+Build the complete public-facing AEVORA website.
+
+The landing page must be visually exceptional and conversion-focused.
+
+NAVBAR:\
+AEVORA logo, Home, Features, How It Works, Our Approach, Security, About, Sign In and Get Started.
+
+HERO:\
+Headline: "Better Care Begins With Being Connected."
+
+Subheadline:\
+"One intelligent space for medications, appointments and the people who care about you."
+
+CTA:
+
+- Start Your Care Journey.
+- Discover AEVORA.
+
+Create a cinematic, premium 3D healthcare illustration featuring an elderly person, family members and a caretaker in a modern welcoming environment.
+
+Add floating UI cards:
+
+- Morning medication completed.
+- Next appointment.
+- Family care circle connected.
+- Weekly care progress.
+
+SECTIONS:
+
+1. Hero with animated 3D illustration.
+2. Trust and impact statistics, clearly marked as illustrative if demo data is used.
+3. The problem with disconnected elderly care.
+4. AEVORA's solution.
+5. Six feature showcase cards.
+6. Medication management interactive preview.
+7. Family Care Circle showcase.
+8. AI Companion showcase.
+9. How AEVORA works in four steps.
+10. Accessibility and independent ageing.
+11. Privacy and security.
+12. Frequently asked questions.
+13. Final CTA.
+14. Premium footer.
+
+DESIGN:\
+Use asymmetrical editorial layouts, floating visual elements, beautiful typography, elegant section transitions and tasteful motion.
+
+Make the landing page fully responsive.
+
+All navigation links and CTA buttons must lead to actual application routes.
+
+
+
+Prompt 04
+
+**Authentication and onboarding**
+
+
+
+Build complete authentication and onboarding workflows for AEVORA.
+
+Implement:
+
+- Registration.
+- Login.
+- Logout.
+- Forgot password.
+- Password reset.
+- Protected sessions.
+- Auth.js.
+- PostgreSQL user persistence.
+
+Create a beautiful multi-step onboarding flow.
+
+STEP 1:\
+Choose account type:
+
+- Elderly Individual.
+- Family Member.
+- Caretaker.
+
+STEP 2:\
+Collect required personal information.
+
+STEP 3:\
+Configure accessibility and notification preferences.
+
+STEP 4:\
+Create or join a Care Circle.
+
+STEP 5:\
+Configure permissions and complete onboarding.
+
+Implement secure invitations using random, expiring, single-use codes.
+
+For passcode-based access, use securely hashed PINs, rate limiting and individual identity verification. Never implement shared unrestricted access.
+
+Each role must have a separate onboarding experience.
+
+After successful onboarding, redirect users to their correct role-based dashboard.
+
+Validate every form on both frontend and backend.
+
+Implement proper errors, success states and loading indicators.
+
+## **6. Dashboard development — separate user experiences**
+
+
+
+Prompt 05
+
+**Elderly individual dashboard**
+
+
+
+Build the AEVORA elderly individual's complete dashboard.
+
+The experience must be extremely simple, welcoming and accessible.
+
+HEADER:\
+"Good morning, [User Name]."\
+"Let's make today a healthy and organized day."
+
+DASHBOARD SECTIONS:
+
+1. TODAY'S OVERVIEW
+
+- Scheduled medications.
+- Completed medications.
+- Upcoming appointments.
+- Pending care tasks.
+
+2. NEXT MEDICATION\
+   Display a prominent card containing:
+
+- Medicine name.
+- Dosage.
+- Time.
+- Instructions.
+- Mark as Taken.
+- Skip Dose.
+- Remind Me Later.
+
+3. DAILY CARE PROGRESS\
+   Show a circular progress visualization based on confirmed activities.
+4. UPCOMING APPOINTMENTS\
+   Show doctor, date, time, location and appointment details.
+5. MY CARE CIRCLE\
+   Display connected family members and caretakers.
+6. QUICK ACTIONS
+
+- My Medicines.
+- Book Appointment.
+- Contact Family.
+- Emergency Information.
+
+7. RECENT ACTIVITY\
+   Show recent medication and healthcare events.
+8. AI CARE COMPANION\
+   Provide a prominent assistant shortcut.
+9. DAILY WELLNESS CHECK-IN\
+   Allow users to optionally record:
+
+- How they feel today.
+- Energy level.
+- General wellbeing notes.
+
+Do not interpret these entries as clinical diagnoses.
+
+INTERACTIONS:\
+All dashboard cards must link to actual modules.\
+All medication actions must update the database.\
+Show confirmation dialogs for important actions.
+
+ACCESSIBILITY:\
+Implement large text, high contrast, keyboard support, screen-reader labels and simple language.
+
+Make the dashboard mobile-first and exceptionally easy for senior citizens to navigate.
+
+
+
+Prompt 06
+
+**Family member dashboard**
+
+
+
+Build the complete AEVORA Family Care Dashboard.
+
+Design it as a premium collaborative healthcare coordination workspace.
+
+HEADER:\
+"Your family's care, connected."
+
+DISPLAY:
+
+- Connected elderly profiles.
+- Today's medication progress.
+- Upcoming doctor visits.
+- Missed medication alerts.
+- Pending family responsibilities.
+- Caretaker activity.
+
+CREATE THE FOLLOWING MODULES:
+
+1. FAMILY OVERVIEW\
+   A unified summary of authorized elderly profiles.
+2. CARE TIMELINE\
+   Chronological activities:
+
+- Medication confirmed.
+- Appointment scheduled.
+- Care note added.
+- Task completed.
+- Invitation accepted.
+
+3. MEDICATION MONITORING\
+   Display schedule status, adherence history and missed-dose events.
+4. APPOINTMENT TRACKING\
+   Display upcoming and past appointments.
+5. CARE RESPONSIBILITIES\
+   Allow family members to assign tasks to authorized members.
+6. FAMILY INVITATIONS\
+   Invite trusted relatives with expiring secure invitation codes.
+7. PERMISSION MANAGEMENT\
+   Allow the elderly profile owner to grant, restrict or revoke access.
+8. FAMILY COMMUNICATION\
+   Add care notes and contextual updates.
+9. NOTIFICATION CENTER\
+   Show important events and acknowledgement status.
+10. FAMILY REPORTS\
+    Generate weekly care activity summaries using real stored data.
+
+Design a beautiful activity feed with filters and timeline visualization.
+
+Never expose private health information to unauthorized family members.
+
+Ensure all family actions are persisted and audited.
+
+
+
+Prompt 07
+
+**Caretaker workspace**
+
+
+
+Build AEVORA's professional caretaker workspace.
+
+Create a dedicated dashboard for authorized caretakers.
+
+DASHBOARD:
+
+- Assigned elderly individuals.
+- Today's care schedule.
+- Pending medications.
+- Upcoming appointments.
+- Assigned tasks.
+- Handover notes.
+
+MODULES:
+
+1. Assigned Profiles.
+2. Medication Assistance.
+3. Daily Care Checklist.
+4. Appointment Assistance.
+5. Care Notes.
+6. Shift Management.
+7. Care Handover.
+8. Activity History.
+
+DAILY CHECKLIST:\
+Allow caretakers to record:
+
+- Medication assistance provided.
+- Appointment assistance.
+- Routine care activities.
+- General observations.
+- Pending tasks.
+
+MEDICATION VERIFICATION:\
+Record whether a caretaker assisted with a dose, and distinguish this from an elderly person's self-confirmation.
+
+CARE HANDOVER:\
+Allow outgoing caretakers to provide:
+
+- Completed tasks.
+- Pending tasks.
+- Relevant observations.
+- Next shift instructions.
+
+Show timestamps and author information for every entry.
+
+PERMISSIONS:\
+Caretakers can only access profiles assigned to them and information authorized by the elderly profile owner.
+
+Create a clean, professional, mobile-responsive workspace.
+
+## **7. Core healthcare modules**
+
+
+
+Prompt 08
+
+**Smart medication management**
+
+
+
+[Medication tracking](https://images.openai.com/static-rsc-4/A5EuuSet9hrmLAKF6NiQeVfK-tJiqsoT3UWLdtDNVYafQW49oiwCZpOZkv9jlHED69Jrqneahg6Ocxfs31jkaXgRwK8mfRPChmCMsL9vM_8np1ULO68w3AqQTS34HSO4l_1zoMX2NALCkOI2FwonBHxhMODRR9gxq8Ln0ibWEcM?purpose=inline)
+
+[mindRx](https://images.openai.com/static-rsc-4/bGpLuHwChVjEyar2TpLiKG4x3v5AebcYMz6-Eo6kg2rWvD0je8OKu7HmZFjhqHbA5Pzon31b7eeit_9x6-3d32fCik3V5_SKqhjTBPyUzkaBqRemDsQ4AftBmYURPcTxwukGwXDWE8tMKd-NNMuogy8rTYSfb5pUo_79a_tkFgw?purpose=inline)
+
+[Medicine Reminder App by Techugo on Dribbble](https://images.openai.com/static-rsc-4/rZnK9E-zP_IB3H1RaVEvmkNNgvoQ7ikOoim16vLSoN7oe-IefbWR04M42ylRZaxVISnzPx0ptyThpw2bsAtow3GMse1GpYvnCQX6g9tx2mEmsAdMN-jsYcKC6rrz-jjzr_wL0ITiwLfFmghZg7y_iZq8JYzFwv8c7mBJN2jNgtE?purpose=inline)
+
+15
+
+Implement the complete AEVORA Medication Management System.
+
+Create an attractive medication center with three views:
+
+- List View.
+- Calendar View.
+- Timeline View.
+
+MEDICATION CRUD:
+
+- Add medication.
+- Edit medication.
+- Delete medication.
+- View medication details.
+- Configure dosage and frequency.
+- Set start and end dates.
+- Configure specific dose times.
+- Add instructions.
+- Add prescribing doctor.
+- Set refill dates.
+
+DOSE STATUS:
+
+- Scheduled.
+- Taken.
+- Missed.
+- Skipped.
+- Delayed.
+
+Implement individual dose records with timestamps.
+
+FEATURES:
+
+1. Today's medication schedule.
+2. Upcoming dose countdown.
+3. Daily adherence.
+4. Weekly and monthly history.
+5. Missed dose tracking.
+6. Refill alerts.
+7. Medication search.
+8. Medication categories.
+9. Medication instructions.
+10. Audit trail.
+
+Create a medication detail drawer.
+
+Add a dose confirmation flow with an optional confirmation note.
+
+Prevent duplicate dose confirmations.
+
+Do not automatically mark doses as taken.
+
+Do not advise users to double a dose after a missed dose. Direct medication questions to the prescribing clinician or pharmacist.
+
+Create all backend APIs, database relationships and validation.
+
+All data must persist after page refresh.
+
+
+
+Prompt 09
+
+**Appointment and medical records**
+
+
+
+Implement the complete AEVORA Appointment Management and Medical Records modules.
+
+APPOINTMENT MANAGEMENT:
+
+Allow authorized users to:
+
+- Create appointments.
+- Edit appointments.
+- Cancel appointments.
+- Reschedule appointments.
+- Mark appointments completed.
+- Add follow-up appointments.
+
+APPOINTMENT FIELDS:
+
+- Doctor name.
+- Specialty.
+- Clinic or hospital.
+- Date.
+- Time.
+- Address.
+- Contact details.
+- Visit reason.
+- Notes.
+
+VIEWS:
+
+- Calendar.
+- Upcoming appointments.
+- Past appointments.
+- Follow-up list.
+
+MEDICAL VAULT:
+
+Create secure document management for:
+
+- Prescriptions.
+- Medical reports.
+- Lab results.
+- Other healthcare documents.
+
+HEALTH PROFILE:
+
+- Basic information.
+- Allergies.
+- Existing medication list.
+- Important medical notes.
+- Emergency contacts.
+- Healthcare providers.
+
+Implement secure file storage using private object storage, signed access URLs and file-type validation.
+
+Use permission-based document access.
+
+Never expose private document URLs publicly.
+
+Create attractive detail pages and upload experiences.
+
+Implement database persistence and audit logs for changes.
+
+## **8. Extra innovative features — AEVORA ko different banane ke liye**
+
+Ye features project ko basic reminder app se ek intelligent care ecosystem mein transform karenge.
+
+[nightingale UI Kit: AI Medical Chatbot Companion UIUX by strangehelix for UI8 on Dribbble](https://images.openai.com/static-rsc-4/4cJrBsXKcedcOG8tAxd7FyMyHRZORShG4M2UZFDdo2n-v7Vi47PvLv4ouO9cvtYeTGdL-KmJXi7qRg2pCDZmJBP2bSZz6lcpcpI3eF-965lijvfc2hg_HF5FO9IWxeb12j6M8khVZEo6_gt8VEcehaH2NjfYhFRMU5e0GzB2utk?purpose=inline)
+
+**AEVORA Companion**
+
+Personalized AI assistant for daily healthcare routines, medication explanations and appointment assistance.
+
+High priority
+
+[Pharmacy delivery near me — online prescription delivery courier | Pillway: Your Modern Pharmacy](https://images.openai.com/static-rsc-4/GswfAJW2hD_lxJ_xMxKIwSRr-rHQLqWj95lVRS1NwLGQcoX9JpPhS0ymjwvBDnbvZSLkGnUXFD7KbUz39aO4TBTMJHo9MRGSw1-3G4uNWX8xur6nAx0CuRIDSaUp8UJ9fZS50DlsUqQlOBR_8xfkLAL20Ckgk9_gNMotWAz4nus?purpose=inline)
+
+**Smart Escalation Engine**
+
+Remind the elderly person first, then notify designated caretakers if a dose remains unconfirmed after the configured grace period.
+
+High priority
+
+[ManyPixels | Website Design Portfolio](https://images.openai.com/static-rsc-4/736v3NsZ-76cyP-_l1G63SmUkeyX3JSQrmjaDtzqKWqQnGgJQ3VVZkrhT1vYxW27UEQEwp9E6fa0_ag-CfFHTYmob5oxWoCXASSQMM6ebr6N2m1pNybomoEWIPnjLtIL0njAK5yZXruazdoTA6xjw87X7ohpiKpQINh_XVKcjus?purpose=inline)
+
+**Care Continuity Score**
+
+Transparent overview of recorded medication, appointment and care-task completion, with explanations of missing data.
+
+[Senior woman using AI assistant on smartphone](https://images.openai.com/static-rsc-4/ztznczv1d56PIKdzo3nV3OAH89E3EcUG0dXCC4DSB1nGJi0Ix4CXBpo8XSZh23gFLzwmlfmJld4iDaytfO4rtqXHVuq3WHSReCAVlWkGFuI4oi8xiS-Uzx55QHi3oljKZgtkEokpdFD0qsHDj2yBBtEhw6Q9uXvv1IjNxRsMeMT_7VjAFdJAtLKbsgwdw1mc?purpose=inline)
+
+**Voice-First Care**
+
+Voice commands such as "What medicines do I have today?" and "I have taken my morning medicine."
+
+[GrinGO App for iPhone - Free App Download](https://images.openai.com/static-rsc-4/Y-rVclo57KFP0sQZcrpTrlxKviOcka8axovGJSTvUXtzM6vGTdpG0T7EiXztT4LM7rzKlfZH-2HCMxTkuOZmRkyq8dAxxAAD8wEKv5wjdC8rPQ5qVMjD360fVlGKRCA4k17Q7dEUjIt3U41Ve1Pw0Fnsg-Nlm24R1cBkCOGThwc?purpose=inline)
+
+**Emergency Ready Card**
+
+Essential medical information, allergies, emergency contacts and doctor details in one accessible place.
+
+[See Medi-Aide where it matters most | Medi-Aide](https://images.openai.com/static-rsc-4/T-jqnqaBHSUCVE8WREnJ85hptxe6q_VxYk9MR0BX1L7hGhbtpBZ4LIvSnsrz7lfzvjTmEeNTnTm0rsT6JspyYd6EdUo7tZsLjHAYW53FVlmJquHmdn4G-wEWyQA3FNdedquWQfZrL2kHYBI7k_rb2TBsJpD7IAySstvNTf6HIdc?purpose=inline)
+
+**Care Handover Intelligence**
+
+Structured shift summaries so that one caretaker can hand over responsibilities to another.
+
+
+
+Prompt 10
+
+**AI Care Companion**
+
+
+
+Build a premium AI-powered conversational assistant called AEVORA COMPANION using the Gemini API.
+
+DESIGN:
+
+- Modern conversational interface.
+- Beautiful chat bubbles.
+- Soft teal and ivory styling.
+- Animated typing indicator.
+- Suggested questions.
+- Voice input using browser speech recognition where supported.
+- Text-to-speech responses where supported.
+
+SUGGESTED QUESTIONS:
+
+- What medicines do I have today?
+- When is my next appointment?
+- Summarize my healthcare routine.
+- Which medication reminders are pending?
+- What should I prepare for my next doctor visit?
+
+FUNCTIONAL CAPABILITIES:
+
+1. Read the current user's authorized medication schedule.
+2. Explain stored medication instructions in simple language.
+3. Summarize upcoming appointments.
+4. Generate daily care summaries.
+5. Explain general healthcare terminology.
+6. Help navigate the platform.
+7. Provide voice-friendly interactions.
+
+CONTEXT:\
+Only retrieve information belonging to the authenticated user or explicitly authorized elderly profile.
+
+SAFETY:
+
+- Never diagnose diseases.
+- Never prescribe medication.
+- Never independently modify dosage.
+- Never recommend doubling a missed dose.
+- Never fabricate medical history.
+- Identify AI-generated responses.
+- Encourage professional medical advice when appropriate.
+- Handle urgent medical symptoms with appropriate emergency guidance.
+
+Keep Gemini API calls on the server.
+
+Do not send unnecessary personal health information to the AI provider.
+
+Implement error handling, loading states and conversation history with appropriate privacy controls.
+
+
+
+Prompt 11
+
+**Smart notification and email automation**
+
+
+
+Build AEVORA's complete real-time and scheduled notification engine.
+
+TECHNOLOGY:
+
+- Resend email API.
+- PostgreSQL notification records.
+- Background scheduler or worker.
+- Timezone-aware scheduling.
+
+NOTIFICATION TYPES:
+
+1. Upcoming medication.
+2. Missed medication.
+3. Upcoming doctor appointment.
+4. Medication refill.
+5. Family care activity.
+6. Caretaker handover.
+7. Important care task.
+
+IMPLEMENT:
+
+- Configurable reminder lead times.
+- Grace periods.
+- Escalation rules.
+- Notification preferences.
+- Email templates.
+- Delivery status.
+- Retry failed emails.
+- Notification history.
+- Duplicate prevention.
+
+MISSED DOSE WORKFLOW:
+
+1. A scheduled dose becomes due.
+2. Notify the elderly user.
+3. Wait for the configured grace period.
+4. Check whether the dose was confirmed.
+5. If still unconfirmed, notify authorized caretakers.
+6. Notify designated family members if escalation rules require it.
+7. Record the complete event history.
+
+Do not interpret lack of confirmation as proof that medicine was not taken.
+
+All notification recipients must have appropriate permissions and consent.
+
+Create beautiful responsive branded email templates.
+
+Implement actual delivery through Resend. Never show an email as delivered if the provider has not confirmed it.
+
+Build a notification administration dashboard.
+
+
+
+Prompt 12
+
+**Analytics, care score and insights**
+
+
+
+Build AEVORA's complete analytics and insights center.
+
+Use Recharts and real PostgreSQL data.
+
+CREATE:
+
+1. Daily medication adherence chart.
+2. Weekly adherence chart.
+3. Monthly adherence trends.
+4. Missed-dose analysis.
+5. Appointment activity.
+6. Care task completion.
+7. Caregiver activity.
+8. Refill tracking.
+
+CARE CONTINUITY SCORE:
+
+Create a transparent 0–100 score based on available recorded care activities.
+
+Use clearly documented, configurable weights for:
+
+- Confirmed medication doses.
+- Completed scheduled appointments.
+- Completed assigned care tasks.
+
+Important:
+
+- Do not treat missing data as proof of non-adherence.
+- Show data coverage alongside the score.
+- Explain the contribution of each category.
+- Never label the score as a medical risk assessment.
+- Never imply that the score measures the person's health.
+
+Add:
+
+- Date range filters.
+- Individual profile filters.
+- Exportable reports.
+- Weekly family summaries.
+- Clear empty states.
+
+All visualizations must reflect actual persisted data.
+
+
+
+Prompt 13
+
+**Emergency, accessibility and wellness**
+
+
+
+Build AEVORA's emergency care, accessibility and daily wellness modules.
+
+EMERGENCY CENTER:
+
+Create an easily accessible emergency information screen.
+
+Display:
+
+- Emergency contacts.
+- Allergies.
+- Important medical notes.
+- Current medications.
+- Doctor details.
+- Essential medical information.
+
+Provide click-to-call shortcuts where supported.
+
+Clearly distinguish stored emergency information from emergency service integrations. Do not claim to dispatch emergency services.
+
+ACCESSIBILITY CENTER:
+
+Allow users to configure:
+
+- Large typography.
+- High contrast.
+- Simplified interface.
+- Reduced motion.
+- Voice assistance.
+- Language preference.
+- Screen-reader support.
+
+WELLNESS CHECK-IN:
+
+Allow users to record:
+
+- Daily mood.
+- Energy level.
+- General wellbeing.
+- Optional notes.
+
+Create a simple historical view.
+
+Do not generate medical diagnoses from wellness entries.
+
+Make all interfaces easy to operate on mobile devices.
+
+## **9. Admin & Governance Console**
+
+[Healthcare AI Governance Consulting Australia | PolyGovern](https://images.openai.com/static-rsc-4/1NF3OZ4A0nOgvpvB05iq1O3rHKcxH4BHZ3_mVPCbe9XkR6AmQ_Mk0sa33kloimEVv8jATj1iTKZd3I_wWiP7wlOLFTBd2wgAp4n_jZX6WOWN6IrB4j0IFKKGEBp9XNJJzL2pl3ZO9Ag-4VyzVkYzp6Cyk0x0ivKbqvLLIiaJp9U?purpose=inline)
+
+[Clouisle - Enterprise AI Platform V0.2.9 Public Beta | Clouisle](https://images.openai.com/static-rsc-4/mIgt2qT7a0DzW6sCEk7ldSl8IRiX1q3iMF_z0LDNriuXtthSxZ2KZoDNNXfLxD-91srhfuPxsyYzm4qQnmWoi3URvfNWCChytaa4Xar79oRvpYZRnUFAyuJxRnmX9wTgg8rXD6t8ATD2cXbXANfN-Wb4rLyv121zkyIvT-QxLs0?purpose=inline)
+
+[ARCS Digital](https://images.openai.com/static-rsc-4/oby_tjL_cEY_JulRhBmlI-A-4S8GdHDW4FBlGqS6ihlKaFOrk4o7rld8SEESyUlKN5wAbCQpsy3B81mrMPtQsBYEqImwsy2c3OTyfdOn6r3ybP0F-_17ZPmoVrQPxaHa-4NaoPGeoK1VmW0_rj12Yb3FaFwoSmNNZCNLdjGYIek?purpose=inline)
+
+11
+
+
+
+Prompt 14
+
+**Admin and governance console**
+
+
+
+Build a complete AEVORA ADMIN & GOVERNANCE CONSOLE.
+
+This is a separate protected administrative workspace.
+
+DESIGN:
+
+- Premium dark navy sidebar.
+- Ivory content background.
+- Teal accent colors.
+- Professional data tables.
+- Interactive analytics.
+- Responsive layouts.
+
+DASHBOARD:
+
+- Total registered accounts.
+- Active care circles.
+- Elderly profiles.
+- Family members.
+- Caretakers.
+- Notification activity.
+- Email delivery statistics.
+- System health.
+
+ADMIN MODULES:
+
+1. USER MANAGEMENT\
+   View accounts, account status, registration dates and assigned roles.
+2. CARE CIRCLE MANAGEMENT\
+   Monitor circle membership and invitation statuses without bypassing private access permissions.
+3. ROLE MANAGEMENT\
+   Manage authorized account roles.
+4. NOTIFICATION MONITORING\
+   View pending, sent, failed and retried notification records.
+5. EMAIL DELIVERY LOGS\
+   Display provider response, timestamp and delivery status.
+6. AUDIT LOGS\
+   Track sensitive operations, permission changes and record modifications.
+7. SYSTEM HEALTH\
+   Monitor API availability, scheduled jobs and database connectivity.
+8. REPORTING\
+   Generate administrative operational reports.
+9. SUPPORT MANAGEMENT\
+   Track reported platform issues.
+
+SECURITY:
+
+- Strict admin-only authorization.
+- Audit all privileged actions.
+- No unrestricted access to private medical information.
+- No ability to silently change elderly user permissions.
+- Do not expose passwords, PINs or API keys.
+
+Create functional pages, filters, pagination and detail views.
+
+## **10. Backend and database — actual functionality**
+
+
+
+Prompt 15
+
+**Full backend implementation**
+
+
+
+Now complete the entire AEVORA backend.
+
+Do not create additional mock interfaces. Connect all existing frontend components to the real backend.
+
+DATABASE:\
+Use PostgreSQL and Prisma ORM.
+
+Implement relational models for:
+
+- User
+- ElderlyProfile
+- CareCircle
+- CareCircleMember
+- Invitation
+- AccessPermission
+- Medication
+- MedicationSchedule
+- MedicationDose
+- MedicationLog
+- Appointment
+- MedicalRecord
+- EmergencyContact
+- CareTask
+- CareNote
+- CareHandover
+- Notification
+- EmailLog
+- AuditLog
+- AIConversation
+
+BACKEND REQUIREMENTS:
+
+1. Implement database migrations.
+2. Implement database seeding with fictional demo users.
+3. Implement all required CRUD operations.
+4. Implement API request validation with Zod.
+5. Implement server-side role authorization.
+6. Implement profile-level permissions.
+7. Implement secure invitation workflows.
+8. Implement password reset.
+9. Implement secure PIN hashing and rate limiting.
+10. Implement pagination and filtering.
+11. Implement transaction handling for critical operations.
+12. Implement audit logs.
+13. Implement API error handling.
+14. Implement timezone-aware scheduling.
+15. Implement secure file access.
+
+Create organized API routes for:
+
+- Authentication.
+- Users.
+- Profiles.
+- Medications.
+- Doses.
+- Appointments.
+- Family.
+- Caretakers.
+- Care tasks.
+- Medical records.
+- Notifications.
+- Analytics.
+- AI assistant.
+- Administration.
+
+Every private API must independently verify the current user's identity and authorization.
+
+Do not rely only on frontend route protection.
+
+Do not return sensitive data to unauthorized clients.
+
+Persist every important user action.
+
+Provide proper loading, error, empty and success states in the frontend.
+
+Ensure the complete application works after refreshing the browser.
+
+
+
+Prompt 16
+
+**Final QA, security and deployment**
+
+
+
+Perform a complete engineering and product-quality audit of AEVORA.
+
+DO NOT merely report potential problems. Fix the issues in the codebase.
+
+TEST:
+
+AUTHENTICATION:
+
+- Register.
+- Login.
+- Logout.
+- Password reset.
+- Session expiry.
+- Unauthorized access.
+
+ROLE PERMISSIONS:
+
+- Elderly access.
+- Family access.
+- Caretaker access.
+- Admin access.
+- Revoked permissions.
+- Expired invitations.
+
+MEDICATION:
+
+- Create medication.
+- Edit medication.
+- Delete medication.
+- Create schedules.
+- Confirm dose.
+- Prevent duplicate confirmation.
+- Track missed doses.
+- Verify adherence calculations.
+
+APPOINTMENTS:
+
+- Create.
+- Update.
+- Cancel.
+- Reschedule.
+- Complete.
+
+FAMILY:
+
+- Invite.
+- Accept invitation.
+- Reject invitation.
+- Change permissions.
+- Revoke access.
+
+CARETAKER:
+
+- Assign tasks.
+- Complete tasks.
+- Add notes.
+- Create handover.
+
+AUTOMATION:
+
+- Scheduled reminders.
+- Missed-dose escalation.
+- Appointment emails.
+- Failed email retry.
+- Duplicate notification prevention.
+
+AI:
+
+- Verify Gemini integration.
+- Verify profile-level data access.
+- Test medical safety boundaries.
+
+SECURITY:
+
+- Check authorization.
+- Check input validation.
+- Check rate limiting.
+- Check file access.
+- Check sensitive information exposure.
+- Check audit logs.
+- Check environment variables.
+
+RESPONSIVENESS:\
+Test desktop, tablet and mobile layouts.
+
+ACCESSIBILITY:\
+Test keyboard navigation, screen-reader labels, color contrast and enlarged typography.
+
+BUILD:
+
+- Resolve TypeScript errors.
+- Resolve lint errors.
+- Run database migrations.
+- Verify production build.
+- Fix runtime exceptions.
+
+DELIVERABLES:
+
+- Complete README.
+- .env.example.
+- Prisma schema.
+- Database migrations.
+- Seed script.
+- API documentation.
+- Deployment instructions.
+
+Never claim that an integration or test passed without actually verifying it.
+
+Produce a final implementation report listing completed features, remaining configuration requirements and any known limitations.
+
+## **11. Extra features to make AEVORA stand out in a hackathon**
+
+In addition to the required features, I recommend these:
+
+| Feature                        | Why it matters                                                     |
+| ------------------------------ | ------------------------------------------------------------------ |
+| Medication Interaction Checker | Flags potential medicine conflicts for professional review         |
+| Smart Refill Predictor         | Estimates when medicines may need replenishing                     |
+| Multilingual Voice Assistant   | Makes the platform easier for elderly users                        |
+| QR Care Access                 | Lets authorized people access a limited emergency information card |
+| Offline-Friendly Mode          | Keeps essential information accessible during connectivity issues  |
+| Family Care Calendar           | Coordinates who is responsible for which activity                  |
+| Appointment Preparation        | Creates a checklist of questions for the next doctor visit         |
+| Smart Care Reports             | Generates weekly summaries for authorized family members           |
+| Duplicate Medication Detection | Flags potentially duplicated medicine entries                      |
+| Caregiver Shift Intelligence   | Highlights unfinished tasks during handover                        |
+
+These should be implemented with appropriate validation and safety boundaries, particularly for medicine-related functionality.
+
+## **12. Recommended development order**
+
+## **AEVORA build roadmap**
+
+YOUR BUILD PROGRESS
+
+# **0%**
+
+**Foundation and design system**
+
+Architecture, branding, UI components
+
+Phase 1
+
+**Public website and authentication**
+
+Landing page, registration, onboarding
+
+Phase 2
+
+**Three role-based dashboards**
+
+Elderly, family and caretaker
+
+Phase 3
+
+**Healthcare modules**
+
+Medications, appointments, medical vault
+
+Phase 4
+
+**AI and automation**
+
+Gemini, email and scheduled reminders
+
+Phase 5
+
+**Advanced features**
+
+Analytics, voice, emergency and governance
+
+Phase 6
+
+**Testing and deployment**
+
+Security, QA, database and production build
+
+Phase 7
+
+## **13. Important implementation instructions**
+
+A few things to keep in mind:
+
+- Generate the website in the same project, using the prompts in order.
+- Don't let AI Studio replace working code when adding new modules.
+- Use real PostgreSQL persistence, not localStorage as the primary database.
+- Email requires a configured Resend API key and verified sender.
+- Scheduled notifications require a persistent scheduler or background worker, not just a browser timer.
+- Medical document uploads require private storage.
+- Keep all secrets server-side.
+- Use fictional patient records for demonstrations.
+
+**My biggest recommendation:** Make the Elderly Dashboard exceptionally easy to use, and make the Family Dashboard exceptionally informative. That balance is the heart of AEVORA.
+
+When you have generated the first version, share its screenshots or code output and I can review the UI, identify missing functionality and help improve the implementation.
+
+🏥Review my AEVORA build tomorrowTap to set up
+
+
+
+Would you like me to review your generated AEVORA website tomorrow and help identify UI/UX and functionality improvements?
